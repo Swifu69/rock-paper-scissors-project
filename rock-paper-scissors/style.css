@@ -1,0 +1,49 @@
+body{
+    width: 100%;
+    margin: 0;
+}
+
+
+#game-expl{
+    position: relative;
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%; 
+}
+
+#game-rules{
+    position: relative;
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;         
+}
+
+#container{
+    width: 100%;    
+    align-items: center;
+    text-align: center;
+    margin-top: 2%; 
+}
+
+.image-container{
+    width: 100%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.choices{
+    transition: transform .2s;
+    width: 20%;
+    margin: 1%;
+}
+
+.choices:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}   
