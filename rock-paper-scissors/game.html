@@ -1,20 +1,26 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
     <script src="script.js" defer></script>
-</head>
-<body>
-    <div class="image-container">
-    <img class="choices" value="rock" src="sources/Rock.png"> 
-    <img class="choices" value="scissors" src="sources/scissors.png">
-    <img class="choices" value="paper" src="sources/Papir.png">
-</div> 
+    <script src="class.js" type="module"></script>
+  </head>
+  <body>
+    <div id="flex-field">
+      <div id="score-field"></div>
+      <div id="countdown-field"></div>
+    </div>
 
-<div id="score-field"></div>
-<div id="countdown-field"></div>
-</body>
+    <div class="image-container">
+      <img class="choices" value="rock" src="sources/Rock.png" />
+      <img class="choices" value="scissors" src="sources/scissors.png" />
+      <img class="choices" value="paper" src="sources/Papir.png" />
+    </div>
+    <div>
+      <img class="choices" id="bot" value="rock" src="sources/Rock.png" />
+    </div>
+  </body>
 </html>
